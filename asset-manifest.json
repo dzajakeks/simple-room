@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-room/static/css/main.8ece3d5f.css",
+    "main.js": "/simple-room/static/js/main.cb5546dc.js",
+    "static/media/main-dices.png": "/simple-room/static/media/main-dices.5bdbe84987004918a017.png",
+    "static/media/sudoku-grid.jpg": "/simple-room/static/media/sudoku-grid.046d226050cdc1ac4b7b.jpg",
+    "index.html": "/simple-room/index.html",
+    "main.8ece3d5f.css.map": "/simple-room/static/css/main.8ece3d5f.css.map",
+    "main.cb5546dc.js.map": "/simple-room/static/js/main.cb5546dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ece3d5f.css",
+    "static/js/main.cb5546dc.js"
+  ]
+}
