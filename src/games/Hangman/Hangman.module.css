@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+:root {
+  --font-family: 'Londrina Outline', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .all__wrapper {
+    margin-bottom: 10em;
+  }
+  .game__container {
+    position: relative;
+    margin: auto;
+    height: 350px;
+    max-width: 450px;
+  }
+  .hangman__title {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .figure__container {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 3px;
+    stroke-linecap: round;
+    display: grid;
+    margin: 0 auto;
+  }
+  
+  .figure-part {
+    display: none;
+  }
+  
+  .wrong__letters__container {
+    margin-top: 1em;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  
+  .wrong__letters__container p {
+    margin-top: 5px;
+  }
+  
+  .wrong__letters__container span {
+    font-size: 24px;
+    padding-bottom: 2em;
+  }
+  
+  .word {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .popup__container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .popup button {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  
+  .popup button:active {
+    transform: scale(0.98);
+  }
+  
+  .popup button:focus {
+    outline: 0;
+  }
+  
+  .notification-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: -50px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .notification-container p {
+    margin: 0;
+  }
+  
+  .notification-container.show {
+    transform: translateY(-50px);
+  }

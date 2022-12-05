@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+:root {
+    --font-family: 'Londrina Outline', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

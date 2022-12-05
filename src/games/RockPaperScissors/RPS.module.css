@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+:root {
+    --font-family: 'Londrina Outline', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rps__container {
+    display: grid;
+    place-content: center;
+    margin: 10em 0 auto;
+    text-align: center;
+    padding: 0 2em;
+}
+.rps__name {
+    font-size: 3rem;
+    font-family:var(--font-family);
+    font-weight: 900;
+    margin-bottom: .2em;
+}
+.width__height {
+    max-width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 2em .5em;
+    text-align: center;
+}
+.player__computer {
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--font-family);
+    font-weight: 900;
+}
+.player__computer > div {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 0 1em;
+}
+.player__computer div span {
+    font-size: 2rem;
+}
+.result__text {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.rps__buttons > * {
+    border-radius: 50%;
+    padding: 1em;
+    cursor: pointer;
+    transition: all 100ms linear;
+}
+.rps__buttons > *:active {
+    transform: scale(1.1);
+}
+.rps__buttons > button + button {
+    margin-left: 2em;
+}

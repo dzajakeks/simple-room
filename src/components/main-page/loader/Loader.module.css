@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dice-dot-width: 10px;
+    --dice-dot-height: 10px;
+    --dice-dot-color: black;
+    --dice-dot-position: absolute;
+    --dice-width: 55px;
+    --dice-height: 55px;
+}
+
+.loader__container {
+    height: 100vh;
+    display: grid;
+    place-content: center center;
+    background: linear-gradient(#009FFD, #2A2A72);
+    overflow: hidden;
+}
+.dice {
+    border-radius: 4px;
+    width: var(--dice-width);
+    height: var(--dice-height);
+    background-color: white;
+    position: relative;
+    
+}
+
+.dice__dot1 {
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    width: var(--dice-dot-width);
+    height: var(--dice-dot-height);
+    background-color: var(--dice-dot-color);
+    border-radius: 50%;
+}
+.dice__dot2 {
+    top: 20%;
+    right: 20%;
+    position: absolute;
+    width: var(--dice-dot-width);
+    height: var(--dice-dot-height);
+    background-color: var(--dice-dot-color);
+    border-radius: 50%;
+}
+.dice__dot3 {
+    position: absolute;
+    width: var(--dice-dot-width);
+    height: var(--dice-dot-height);
+    background-color: var(--dice-dot-color);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dice__dot4 {
+    position: absolute;
+    width: var(--dice-dot-width);
+    height: var(--dice-dot-height);
+    background-color: var(--dice-dot-color);
+    border-radius: 50%;
+    bottom: 20%;
+    left: 20%;
+}
+.dice__dot5 {
+    position: absolute;
+    width: var(--dice-dot-width);
+    height: var(--dice-dot-height);
+    background-color: var(--dice-dot-color);
+    border-radius: 50%;
+    right: 20%;
+    bottom: 20%;
+}
+.button__next__page {
+    position: absolute;
+    z-index: 99;
+    font-size: 8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

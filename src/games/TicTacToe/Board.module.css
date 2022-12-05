@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+:root {
+    --font-family: 'Londrina Outline', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.TTT__container {
+    margin: 10em auto 10em auto;
+}
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    place-content: center;
+}
+
+.board__outline {
+    outline: 10px solid purple;
+}
+.TTT__name,
+.gameStatus,
+.restartTicTacToe {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: .2em;
+}
+.gameStatus {
+    margin-top: .3em;
+    font-size: 2.4rem;
+}
+.restartTicTacToe {
+    display: inline-block;
+    margin: .3em auto;
+    display: flex;
+    justify-content: center;
+    padding: .1em .4em;
+    font-size: 2rem;
+    cursor: pointer;
+}
