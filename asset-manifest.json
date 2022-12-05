@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/simple-room/static/css/main.d214ba0d.css",
-    "main.js": "/simple-room/static/js/main.8945a7b7.js",
+    "main.js": "/simple-room/static/js/main.789668f9.js",
     "static/media/main-dices.png": "/simple-room/static/media/main-dices.5bdbe84987004918a017.png",
     "static/media/sudoku-grid.jpg": "/simple-room/static/media/sudoku-grid.046d226050cdc1ac4b7b.jpg",
     "index.html": "/simple-room/index.html",
     "main.d214ba0d.css.map": "/simple-room/static/css/main.d214ba0d.css.map",
-    "main.8945a7b7.js.map": "/simple-room/static/js/main.8945a7b7.js.map"
+    "main.789668f9.js.map": "/simple-room/static/js/main.789668f9.js.map"
   },
   "entrypoints": [
     "static/css/main.d214ba0d.css",
-    "static/js/main.8945a7b7.js"
+    "static/js/main.789668f9.js"
   ]
 }
